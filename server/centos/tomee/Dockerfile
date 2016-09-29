@@ -1,4 +1,4 @@
-FROM sisekipp/java
+FROM sisekipp/centos_java
 MAINTAINER Sebastian Kipping, kipping.sebastian@gmail.com
 ENV ARCHIVE apache-tomee-plus-7.0.1
 ENV INSTALL_DIR /opt

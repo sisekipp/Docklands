@@ -1,4 +1,4 @@
-FROM sisekipp/java
+FROM sisekipp/centos_java
 MAINTAINER Sebastian Kipping, kipping.sebastian@gmail.com
 ENV PAYARA_ARCHIVE payara41
 ENV DOMAIN_NAME domain1

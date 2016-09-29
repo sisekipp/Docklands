@@ -1,4 +1,4 @@
-FROM sisekipp/java
+FROM sisekipp/centos_java
 MAINTAINER Sebastian Kipping, kipping.sebastian@gmail.com
 ENV ARCHIVE apache-tomcat-8.0.37
 ENV INSTALL_DIR /opt

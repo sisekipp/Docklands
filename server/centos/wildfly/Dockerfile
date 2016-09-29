@@ -1,4 +1,4 @@
-FROM sisekipp/java
+FROM sisekipp/centos_java
 MAINTAINER Sebastian Kipping, kipping.sebastian@gmail.com
 ENV VERSION wildfly-10.0.0.Final
 ENV INSTALL_DIR /opt
