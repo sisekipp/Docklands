@@ -1,0 +1,11 @@
+version: '2'
+services:
+  neo4j:
+    image: neo4j
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    volumes:
+      - local-folder:/data
+    environment:
+      - NEO4J_AUTH=none
